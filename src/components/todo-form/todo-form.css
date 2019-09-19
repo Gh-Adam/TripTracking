@@ -1,0 +1,33 @@
+.form-wrapper {
+  width: 100%;
+}
+
+.form-wrapper input {
+  display: inline-block;
+  height: 30px;
+}
+
+.form-wrapper input:first-of-type {
+  width: 50%;
+}
+
+.form-wrapper input:nth-child(2) {
+  width: 30%;
+}
+
+.form-wrapper input:last-of-type {
+  width: 20%;
+  background-color: #f8d5d2;
+  color: #0d2d4e;
+  outline: none;
+  border: none;
+}
+
+.form-wrapper input::placeholder {
+  text-indent: 10px !important;
+  color: blue;
+}
+
+.form-wrapper input:not(:last-of-type) {
+  text-indent: 10px !important;
+}
