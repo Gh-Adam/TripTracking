@@ -1,0 +1,34 @@
+.list {
+  width: 100%;
+  color: #0d2d4e;
+  background-color: white;
+  text-align: center;
+}
+
+.list .head {
+  color: #0d2d4e;
+  background-color: #f8d5d2;
+  padding: 1% 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.list .no-item {
+  padding: 1% 0;
+  margin: 0;
+}
+
+.list span {
+  display: inline-block;
+}
+
+.list span:first-of-type {
+  width: 50%;
+}
+
+.list span:nth-child(2) {
+  width: 30%;
+}
+
+.list span:last-of-type {
+  width: 20%;
+}
